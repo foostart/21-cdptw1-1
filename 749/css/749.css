@@ -207,8 +207,15 @@
   margin-top: 30px;
 }
 .type-749 .agents .item .img img {
+  -webkit-filter: grayscale(0%);
+  filter: grayscale(0%);
   border-radius: 50%;
   max-width: 150px;
+}
+.type-749 .agents .item .img img:hover {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+  cursor: pointer;
 }
 .type-749 .agents .item .name {
   font-size: 17px;
