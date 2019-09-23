@@ -17,6 +17,7 @@
     $less->compileFile('less/749.less', 'css/749.css');
     
 ?>
+
 <head>
 
         <meta charset="UTF-8">
@@ -34,9 +35,6 @@
 
 </head>
 <body>
-
         <?php include './749-content.php'; ?>
 
-    
 </body>
-</html>

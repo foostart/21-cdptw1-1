@@ -72,29 +72,29 @@
                 <h3 class="title">Recently Listed Properties</h3>
                 <div class="items">
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img class="img-responsive" src="images/research-3-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/research-3-770x434.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img class="img-responsive" src="images/research-4-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/research-4-770x434.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img class="img-responsive" src="images/research-5-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/research-5-770x434.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img class="img-responsive" src="images/research-3-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/research-3-770x434.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img class="img-responsive" src="images/research-4-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/research-4-770x434.jpg">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img class="img-responsive" src="images/research-5-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/research-5-770x434.jpg">
                     </div>
                 </div>
             </div>
         </div><!-- End Recently -->
         <div class="agents">
             <div class="container">
-                <h3 class="title">Recently Listed Properties</h3>
+                <h3 class="title">Our Agents</h3>
                     <!-- Item -->
                     <div class="item col-md-3 col-sm-6 col-xs-12">
                         <div class="img">
@@ -102,7 +102,7 @@
                         </div>
                         <p class="name">John Smith</p>
                         <div class="stars">
-                                  <form action="">
+                                  <form>
                                     <input class="star star-10" id="star-5" type="radio" name="star"/>
                                     <label class="star star-10" for="star-5"></label>
                                     <input class="star star-9" id="star-4" type="radio" name="star"/>
@@ -129,7 +129,7 @@
                         </div>
                         <p class="name">Jane Smith</p>
                         <div class="stars">
-                                  <form action="">
+                                  <form>
                                     <input class="star star-10" id="star-10" type="radio" name="star"/>
                                     <label class="star star-10" for="star-10"></label>
                                     <input class="star star-9" id="star-9" type="radio" name="star"/>
@@ -156,7 +156,7 @@
                         </div>
                         <p class="name">Rust Cohle</p>
                         <div class="stars">
-                                  <form action="">
+                                  <form>
                                     <input class="star star-10" id="star-11" type="radio" name="star"/>
                                     <label class="star star-10" for="star-11"></label>
                                     <input class="star star-9" id="star-12" type="radio" name="star"/>
@@ -183,7 +183,7 @@
                         </div>
                         <p class="name">Antony Iglesias</p>
                         <div class="stars">
-                                  <form action="">
+                                  <form action="#"  method="GET">
                                     <input class="star star-10" id="star-16" type="radio" name="star"/>
                                     <label class="star star-10" for="star-16"></label>
                                     <input class="star star-9" id="star-17" type="radio" name="star"/>
@@ -315,5 +315,4 @@
             </div>
         </footer>
         <!-- End Footer -->
-    </div>
 </div>

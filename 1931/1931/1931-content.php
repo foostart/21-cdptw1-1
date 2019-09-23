@@ -12,6 +12,7 @@ $url_path = $url_host . $matches[1][0];
 $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1931">
+    <div class="container">
     <div class="row">
         <div class="col-md-9">
 
@@ -117,4 +118,5 @@ $url_path = str_replace('\\', '/', $url_path);
             <!--END TABS AND PILL-->
         </div>
     </div>
+</div>
 </div>

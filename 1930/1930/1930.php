@@ -29,32 +29,36 @@
         $less->compileFile('less/type-b-9.less', 'css/type-b-9.css');
         ?>
         <link href="<?php echo $url_path ?>/css/type-b-9.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="../package/css/swiper.min.css">
+        <link rel="stylesheet" href="swiper-5.0.2/package/css/swiper.min.css">
+        
 
     </head>
 
     <body>
 
         <?php include $dir_block.'/1930-content.php'; ?>
-        <script src="../package/js/swiper.min.js"></script>
-        <script>
-            var swiper = new Swiper('.swiper-container', {
-                breakpoints: {
-        640: {
-          slidesPerView: 2,
-          spaceBetween: 20,
-        },
-        768: {
-          slidesPerView: 4,
-          spaceBetween: 40,
-        },
-        1024: {
-          slidesPerView: 5,
-          spaceBetween: 50,
-        },
-              }                 
-                });
-        </script>
+        <script src="swiper-5.0.2/package/js/swiper.min.js"></script>
+        <script  src = "js/jquery-3.1.1.min.js"></script>
+        <script  src = "js/bootstrap.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      slidesPerGroup: 3,
+      loop: true,
+      loopFillGroupWithBlank: true,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
     </body>
     
     

@@ -221,7 +221,7 @@ if (!class_exists('lessc')) {
                     <div class="col-md-12 col-sm-12">
                         <div class="text-center">
                             <a href="#" class="btn-element btn btn-lined lined-dark btn-md btn-third">
-                                <span>SEE ALL NEW PRODUCTS OF THIS YEAR</span>
+                                <h6><b>SEE ALL NEW PRODUCTS OF THIS YEAR</b></h6>
                             </a>
                         </div>
                     </div>
@@ -234,6 +234,5 @@ if (!class_exists('lessc')) {
             
        
 
-    <script type="text/javascript" src = "js/jquery-3.1.1.min.js"></script>
-    <script type="text/javascript" src = "js/bootstrap.min.js"></script>
+    
     

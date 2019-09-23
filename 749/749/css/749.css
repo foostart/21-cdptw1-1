@@ -189,6 +189,7 @@
 }
 .type-749 .col-md-4 img {
   transition-duration: 0.3s;
+  cursor: pointer;
 }
 .type-749 .col-md-4 img:hover {
   transform: scale(1.2);

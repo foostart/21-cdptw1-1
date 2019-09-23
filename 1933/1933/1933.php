@@ -15,7 +15,7 @@
     $less = new lessc;
     $less->compileFile('less/1933.less', 'css/1933.css');
 ?>
-<html>
+<html lang="en">
     <head>
         <title>1933</title>
         <meta charset="UTF-8">
@@ -28,11 +28,12 @@
         <link href="<?php echo $url_path ?>/css/fontawesome.css" rel="stylesheet" type="text/css"/>
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
         <link href="<?php echo $url_path ?>/css/1933.css" rel="stylesheet" type="text/css"/>
-        <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" type="text/javascript"></script>
-        <script src="<?php echo $url_path ?>/js/1933.js" type="text/javascript"></script>
+       
 
     </head>
     <body>
         <?php include './1933-content.php'; ?>
+         <script src="<?php echo $url_path ?>/js/jquery-2.1.4.min.js" ></script>
+        <script src="<?php echo $url_path ?>/js/1933.js" ></script>
     </body>
 </html>
