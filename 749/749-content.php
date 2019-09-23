@@ -101,22 +101,20 @@
                             <a><img src="images/image1.jpg" alt=""/></a>
                         </div>
                         <p class="name">John Smith</p>
-                        <div id="rating">
-                            <input type="radio" id="star5" name="rating" value="5" />
-                            <label class = "full" for="star5" title="Awesome - 5 stars"></label>
-                         
-                            <input type="radio" id="star4" name="rating" value="4" />
-                            <label class = "full" for="star4" title="Pretty good - 4 stars"></label>
-                         
-                            <input type="radio" id="star3" name="rating" value="3" />
-                            <label class = "full" for="star3" title="Meh - 3 stars"></label>
-                         
-                            <input type="radio" id="star2" name="rating" value="2" />
-                            <label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
-                         
-                            <input type="radio" id="star1" name="rating" value="1" />
-                            <label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-                        </div>
+                        <div class="stars">
+                                  <form action="">
+                                    <input class="star star-5" id="star-5" type="radio" name="star"/>
+                                    <label class="star star-5" for="star-5"></label>
+                                    <input class="star star-4" id="star-4" type="radio" name="star"/>
+                                    <label class="star star-4" for="star-4"></label>
+                                    <input class="star star-3" id="star-3" type="radio" name="star"/>
+                                    <label class="star star-3" for="star-3"></label>
+                                    <input class="star star-2" id="star-2" type="radio" name="star"/>
+                                    <label class="star star-2" for="star-2"></label>
+                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
+                                    <label class="star star-1" for="star-1"></label>
+                                  </form>
+                                </div>
                         <ul class="list-unstyled list-inline link">
                             <li><a class="envelope" href="#"><i class="fa fa-envelope-o"></i></a></li>
                             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -130,22 +128,20 @@
                             <a><img src="images/image2.jpg" alt=""/></a>
                         </div>
                         <p class="name">John Smith</p>
-                        <div id="rating">
-                            <input type="radio" id="star5" name="rating" value="5" />
-                            <label class = "full" for="star5" title="Awesome - 5 stars"></label>
-                         
-                            <input type="radio" id="star4" name="rating" value="4" />
-                            <label class = "full" for="star4" title="Pretty good - 4 stars"></label>
-                         
-                            <input type="radio" id="star3" name="rating" value="3" />
-                            <label class = "full" for="star3" title="Meh - 3 stars"></label>
-                         
-                            <input type="radio" id="star2" name="rating" value="2" />
-                            <label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
-                         
-                            <input type="radio" id="star1" name="rating" value="1" />
-                            <label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-                        </div>
+                        <div class="stars">
+                                  <form action="">
+                                    <input class="star star-10" id="star-10" type="radio" name="star"/>
+                                    <label class="star star-10" for="star-10"></label>
+                                    <input class="star star-9" id="star-9" type="radio" name="star"/>
+                                    <label class="star star-9" for="star-9"></label>
+                                    <input class="star star-8" id="star-8" type="radio" name="star"/>
+                                    <label class="star star-8" for="star-8"></label>
+                                    <input class="star star-7" id="star-7" type="radio" name="star"/>
+                                    <label class="star star-7" for="star-7"></label>
+                                    <input class="star star-6" id="star-6" type="radio" name="star"/>
+                                    <label class="star star-6" for="star-6"></label>
+                                  </form>
+                                </div>
                         <ul class="list-unstyled list-inline link">
                             <li><a class="envelope" href="#"><i class="fa fa-envelope-o"></i></a></li>
                             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -159,22 +155,20 @@
                             <a><img src="images/image3.jpg" alt=""/></a>
                         </div>
                         <p class="name">John Smith</p>
-                        <div id="rating">
-                            <input type="radio" id="star5" name="rating" value="5" />
-                            <label class = "full" for="star5" title="Awesome - 5 stars"></label>
-                         
-                            <input type="radio" id="star4" name="rating" value="4" />
-                            <label class = "full" for="star4" title="Pretty good - 4 stars"></label>
-                         
-                            <input type="radio" id="star3" name="rating" value="3" />
-                            <label class = "full" for="star3" title="Meh - 3 stars"></label>
-                         
-                            <input type="radio" id="star2" name="rating" value="2" />
-                            <label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
-                         
-                            <input type="radio" id="star1" name="rating" value="1" />
-                            <label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-                        </div>
+                        <div class="stars">
+                                  <form action="">
+                                    <input class="star star-5" id="star-11" type="radio" name="star"/>
+                                    <label class="star star-5" for="star-11"></label>
+                                    <input class="star star-4" id="star-12" type="radio" name="star"/>
+                                    <label class="star star-4" for="star-12"></label>
+                                    <input class="star star-3" id="star-13" type="radio" name="star"/>
+                                    <label class="star star-3" for="star-13"></label>
+                                    <input class="star star-2" id="star-14" type="radio" name="star"/>
+                                    <label class="star star-2" for="star-14"></label>
+                                    <input class="star star-1" id="star-15" type="radio" name="star"/>
+                                    <label class="star star-1" for="star-15"></label>
+                                  </form>
+                                </div>
                         <ul class="list-unstyled list-inline link">
                             <li><a class="envelope" href="#"><i class="fa fa-envelope-o"></i></a></li>
                             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
@@ -188,22 +182,20 @@
                             <a><img src="images/image4.jpg" alt=""/></a>
                         </div>
                         <p class="name">John Smith</p>
-                        <div id="rating">
-                            <input type="radio" id="star5" name="rating" value="5" />
-                            <label class = "full" for="star5" title="Awesome - 5 stars"></label>
-                         
-                            <input type="radio" id="star4" name="rating" value="4" />
-                            <label class = "full" for="star4" title="Pretty good - 4 stars"></label>
-                         
-                            <input type="radio" id="star3" name="rating" value="3" />
-                            <label class = "full" for="star3" title="Meh - 3 stars"></label>
-                         
-                            <input type="radio" id="star2" name="rating" value="2" />
-                            <label class = "full" for="star2" title="Kinda bad - 2 stars"></label>
-                         
-                            <input type="radio" id="star1" name="rating" value="1" />
-                            <label class = "full" for="star1" title="Sucks big time - 1 star"></label>
-                        </div>
+                        <div class="stars">
+                                  <form action="">
+                                    <input class="star star-5" id="star-16" type="radio" name="star"/>
+                                    <label class="star star-5" for="star-16"></label>
+                                    <input class="star star-4" id="star-17" type="radio" name="star"/>
+                                    <label class="star star-4" for="star-17"></label>
+                                    <input class="star star-3" id="star-18" type="radio" name="star"/>
+                                    <label class="star star-3" for="star-18"></label>
+                                    <input class="star star-2" id="star-19" type="radio" name="star"/>
+                                    <label class="star star-2" for="star-19"></label>
+                                    <input class="star star-1" id="star-20" type="radio" name="star"/>
+                                    <label class="star star-1" for="star-20"></label>
+                                  </form>
+                                </div>
                         <ul class="list-unstyled list-inline link">
                             <li><a class="envelope" href="#"><i class="fa fa-envelope-o"></i></a></li>
                             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
