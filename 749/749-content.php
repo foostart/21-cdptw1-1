@@ -103,16 +103,16 @@
                         <p class="name">John Smith</p>
                         <div class="stars">
                                   <form action="">
-                                    <input class="star star-5" id="star-5" type="radio" name="star"/>
-                                    <label class="star star-5" for="star-5"></label>
-                                    <input class="star star-4" id="star-4" type="radio" name="star"/>
-                                    <label class="star star-4" for="star-4"></label>
-                                    <input class="star star-3" id="star-3" type="radio" name="star"/>
-                                    <label class="star star-3" for="star-3"></label>
-                                    <input class="star star-2" id="star-2" type="radio" name="star"/>
-                                    <label class="star star-2" for="star-2"></label>
-                                    <input class="star star-1" id="star-1" type="radio" name="star"/>
-                                    <label class="star star-1" for="star-1"></label>
+                                    <input class="star star-10" id="star-5" type="radio" name="star"/>
+                                    <label class="star star-10" for="star-5"></label>
+                                    <input class="star star-9" id="star-4" type="radio" name="star"/>
+                                    <label class="star star-9" for="star-4"></label>
+                                    <input class="star star-8" id="star-3" type="radio" name="star"/>
+                                    <label class="star star-8" for="star-3"></label>
+                                    <input class="star star-7" id="star-2" type="radio" name="star"/>
+                                    <label class="star star-7" for="star-2"></label>
+                                    <input class="star star-6" id="star-1" type="radio" name="star"/>
+                                    <label class="star star-5" for="star-1"></label>
                                   </form>
                                 </div>
                         <ul class="list-unstyled list-inline link">
@@ -127,7 +127,7 @@
                         <div class="img">
                             <a><img src="images/image2.jpg" alt=""/></a>
                         </div>
-                        <p class="name">John Smith</p>
+                        <p class="name">Jane Smith</p>
                         <div class="stars">
                                   <form action="">
                                     <input class="star star-10" id="star-10" type="radio" name="star"/>
@@ -154,19 +154,19 @@
                         <div class="img">
                             <a><img src="images/image3.jpg" alt=""/></a>
                         </div>
-                        <p class="name">John Smith</p>
+                        <p class="name">Rust Cohle</p>
                         <div class="stars">
                                   <form action="">
-                                    <input class="star star-5" id="star-11" type="radio" name="star"/>
-                                    <label class="star star-5" for="star-11"></label>
-                                    <input class="star star-4" id="star-12" type="radio" name="star"/>
-                                    <label class="star star-4" for="star-12"></label>
-                                    <input class="star star-3" id="star-13" type="radio" name="star"/>
-                                    <label class="star star-3" for="star-13"></label>
-                                    <input class="star star-2" id="star-14" type="radio" name="star"/>
-                                    <label class="star star-2" for="star-14"></label>
-                                    <input class="star star-1" id="star-15" type="radio" name="star"/>
-                                    <label class="star star-1" for="star-15"></label>
+                                    <input class="star star-10" id="star-11" type="radio" name="star"/>
+                                    <label class="star star-10" for="star-11"></label>
+                                    <input class="star star-9" id="star-12" type="radio" name="star"/>
+                                    <label class="star star-9" for="star-12"></label>
+                                    <input class="star star-8" id="star-13" type="radio" name="star"/>
+                                    <label class="star star-8" for="star-13"></label>
+                                    <input class="star star-7" id="star-14" type="radio" name="star"/>
+                                    <label class="star star-7" for="star-14"></label>
+                                    <input class="star star-6" id="star-15" type="radio" name="star"/>
+                                    <label class="star star-6" for="star-15"></label>
                                   </form>
                                 </div>
                         <ul class="list-unstyled list-inline link">
@@ -181,19 +181,19 @@
                         <div class="img">
                             <a><img src="images/image4.jpg" alt=""/></a>
                         </div>
-                        <p class="name">John Smith</p>
+                        <p class="name">Antony Iglesias</p>
                         <div class="stars">
                                   <form action="">
-                                    <input class="star star-5" id="star-16" type="radio" name="star"/>
-                                    <label class="star star-5" for="star-16"></label>
-                                    <input class="star star-4" id="star-17" type="radio" name="star"/>
-                                    <label class="star star-4" for="star-17"></label>
-                                    <input class="star star-3" id="star-18" type="radio" name="star"/>
-                                    <label class="star star-3" for="star-18"></label>
-                                    <input class="star star-2" id="star-19" type="radio" name="star"/>
-                                    <label class="star star-2" for="star-19"></label>
-                                    <input class="star star-1" id="star-20" type="radio" name="star"/>
-                                    <label class="star star-1" for="star-20"></label>
+                                    <input class="star star-10" id="star-16" type="radio" name="star"/>
+                                    <label class="star star-10" for="star-16"></label>
+                                    <input class="star star-9" id="star-17" type="radio" name="star"/>
+                                    <label class="star star-9" for="star-17"></label>
+                                    <input class="star star-8" id="star-18" type="radio" name="star"/>
+                                    <label class="star star-8" for="star-18"></label>
+                                    <input class="star star-7" id="star-19" type="radio" name="star"/>
+                                    <label class="star star-7" for="star-19"></label>
+                                    <input class="star star-6" id="star-20" type="radio" name="star"/>
+                                    <label class="star star-6" for="star-20"></label>
                                   </form>
                                 </div>
                         <ul class="list-unstyled list-inline link">
@@ -226,9 +226,28 @@
                         </a>
                         <div class="content-slide-show">
                             <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, rhoncus sem.Aenean vitae nulla varius, dictum nisi non, rhoncus sem</p>
-                            <h3 class="name">Jon Smith</h3>
+                            <h3 class="name">John Smith</h3>
                         </div>
                     </div>
+                    <div class="swiper-slide list-inline">
+                        <a href="#">
+                            <img src="images/image3.jpg" alt=""/>
+                        </a>
+                        <div class="content-slide-show">
+                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, rhoncus sem.Aenean vitae nulla varius, dictum nisi non, rhoncus sem</p>
+                            <h3 class="name">Rust Cohle </h3>
+                        </div>
+                    </div>
+                    <div class="swiper-slide list-inline">
+                        <a href="#">
+                            <img src="images/image4.jpg" alt=""/>
+                        </a>
+                        <div class="content-slide-show">
+                            <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, rhoncus sem.Aenean vitae nulla varius, dictum nisi non, rhoncus sem</p>
+                            <h3 class="name">Antony Iglesias</h3>
+                        </div>
+                    </div>
+                    
                 </div>
                 <!-- Add Pagination -->
                 <div class="swiper-pagination"></div>

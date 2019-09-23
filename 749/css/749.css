@@ -184,6 +184,15 @@
 .type-749 .service .items .item-content {
   color: #b0aab8;
 }
+.type-749 .col-md-4 {
+  overflow: hidden;
+}
+.type-749 .col-md-4 img {
+  transition-duration: 0.3s;
+}
+.type-749 .col-md-4 img:hover {
+  transform: scale(1.2);
+}
 .type-749 .recently {
   text-align: center;
   margin-top: 30px;
