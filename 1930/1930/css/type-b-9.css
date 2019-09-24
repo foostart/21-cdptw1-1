@@ -149,7 +149,7 @@
   border-radius: 3px;
   transition: all .1s ease-in-out;
 }
-.type-1930 .btn-element > span {
+.type-1930 .btn-element > h6 {
   vertical-align: middle;
   display: inline-block;
 }

@@ -206,6 +206,7 @@
 }
 .swiper-pagination.swiper-pagination-hidden {
   opacity: 0;
+  text-align: center;
 }
 /* Common Styles */
 .swiper-pagination-fraction,
@@ -261,6 +262,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-pagination-clickable .swiper-pagination-bullet {
   cursor: pointer;
+  text-align: center;
 }
 .swiper-pagination-bullet-active {
   opacity: 1;

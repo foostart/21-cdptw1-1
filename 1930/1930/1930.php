@@ -30,10 +30,7 @@
         ?>
         <link href="<?php echo $url_path ?>/css/type-b-9.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="swiper-5.0.2/package/css/swiper.min.css">
-        
-
     </head>
-
     <body>
 
         <?php include $dir_block.'/1930-content.php'; ?>
@@ -41,26 +38,23 @@
         <script  src = "js/jquery-3.1.1.min.js"></script>
         <script  src = "js/bootstrap.min.js"></script>
 
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      slidesPerGroup: 3,
-      loop: true,
-      loopFillGroupWithBlank: true,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-      navigation: {
-        nextEl: '.swiper-button-next',
-        prevEl: '.swiper-button-prev',
-      },
-    });
-  </script>
+        <!-- Initialize Swiper -->
+        <script>
+          var swiper = new Swiper('.swiper-container', {
+            slidesPerView: 1,
+            spaceBetween: 30,
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: true,
+            pagination: {
+              el: '.swiper-pagination',
+              clickable: true,
+            },
+            navigation: {
+              nextEl: '.swiper-button-next',
+              prevEl: '.swiper-button-prev',
+            },
+          });
+        </script>
     </body>
-    
-    
-
 </html>

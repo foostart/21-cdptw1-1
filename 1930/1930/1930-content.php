@@ -24,21 +24,12 @@ if (!class_exists('lessc')) {
                     <div class="col-lg-9 col-md-9 col-sm-6 col-xs-6">
                         <h3 class="title">FEATURED PRODUCTS</h3>
                     </div>
-                    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
-                        <!-- Controls -->
-                        <div class="controls pull-right">
-                            <a class="left fa fa-chevron-left btn btn-info" href="#carousel-example" data-slide="prev"></a>
-                            <a class="right fa fa-chevron-right btn btn-info" href="#carousel-example" data-slide="next"></a>
-                        </div>
-                    </div>
+                    
                 </div>
 
                 <div class="clear"></div>
             <div class="swiper-container">
-   
-                <div id="carousel-example" class="carousel slide swiper-wrapper" data-ride="carousel">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner ">
+                <div class="swiper-wrapper">
                         <div class="item active swiper-slide">
                             <div class="row ">
                                 <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 text-center ">
@@ -210,17 +201,20 @@ if (!class_exists('lessc')) {
                         </div>
                     </div>
                 </div>
-                <div class="swiper-pagination"></div>
-            </div>
-            
-        </div>
+                </div>
+                <div class="swiper-pagination" style="padding-left: 630px;"></div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div> 
+        
 
         <section class="hg_section pbottom-65">
             <div class="container">
                 <div class="row">
                     <div class="col-md-12 col-sm-12">
                         <div class="text-center">
-                            <a href="#" class="btn-element btn btn-lined lined-dark btn-md btn-third">
+                            <a href="#" class="btn-element btn btn-lined lined-dark btn-md btn-third" style="margin-top: 40px; margin-bottom: 10px;
+                                border-color: #242424;">
                                 <h6><b>SEE ALL NEW PRODUCTS OF THIS YEAR</b></h6>
                             </a>
                         </div>
@@ -228,7 +222,7 @@ if (!class_exists('lessc')) {
                 </div>
             </div>
         </section>              
-    </div>   
+  
             
 
             
