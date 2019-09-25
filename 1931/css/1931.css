@@ -61,12 +61,15 @@
 }
 .type-1931 .time span {
   display: block;
+  color: red;
 }
 .type-1931 .size span {
   display: block;
+  color: red;
 }
 .type-1931 .date span {
   display: block;
+  color: red;
 }
 .type-1931 .date input {
   width: 150px;
@@ -75,6 +78,7 @@
   border-style: none;
   border: 1px solid #a9a9a9;
   text-align: center;
+  cursor: pointer;
 }
 .type-1931 .date input:active {
   border: solid 1px #cb7152;
@@ -84,6 +88,7 @@
   border-radius: 4px;
   border-style: none;
   border: 1px solid #a9a9a9;
+  cursor: pointer;
 }
 .type-1931 .datetime {
   text-align: center;
@@ -99,6 +104,7 @@
   font-weight: normal;
   text-transform: uppercase;
   font-size: 15px;
+  color: blue;
 }
 .type-1931 .form_section_2 p {
   display: block;
@@ -112,6 +118,7 @@
   border: 1px solid #a9a9a9;
   padding-left: 12px;
   outline-color: #cb7152;
+  cursor: pointer;
 }
 .type-1931 .form_section_2 input:active {
   border: solid 1px #cb7152;
@@ -144,6 +151,7 @@
   border: 1px solid #a9a9a9;
   font-weight: normal;
   text-align: center;
+  cursor: pointer;
 }
 .type-1931 .subtitle {
   text-transform: uppercase;
