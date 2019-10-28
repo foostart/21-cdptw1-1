@@ -13,6 +13,8 @@
         $dir_block = dirname($_SERVER['SCRIPT_FILENAME']);      
         require_once($dir_block.'/libs/lessc.inc.php');
     }       
+    $less = new lessc;
+    $less->compileFile('less/1930.less', 'css/1930.css');
 ?>
 <html lang="eu">
     <head>
@@ -21,40 +23,17 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
         <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-        <?php
-        if (!class_exists('lessc')) {
-            include ('./libs/lessc.inc.php');
-        }
-        $less = new lessc;
-        $less->compileFile('less/type-b-9.less', 'css/type-b-9.css');
-        ?>
-        <link href="<?php echo $url_path ?>/css/type-b-9.css" rel="stylesheet" type="text/css" />
-        <link rel="stylesheet" href="swiper-5.0.2/package/css/swiper.min.css">
-    </head>
-    <body>
-
-        <?php include $dir_block.'/1930-content.php'; ?>
+        <link href="<?php echo $url_path ?>/css/1930.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="<?php echo $url_path ?>/swiper-5.0.2/package/css/swiper.min.css">
         <script src="swiper-5.0.2/package/js/swiper.min.js"></script>
         <script  src = "js/jquery-3.1.1.min.js"></script>
         <script  src = "js/bootstrap.min.js"></script>
 
-        <!-- Initialize Swiper -->
-        <script>
-          var swiper = new Swiper('.swiper-container', {
-            slidesPerView: 1,
-            spaceBetween: 30,
-            slidesPerGroup: 1,
-            loop: true,
-            loopFillGroupWithBlank: true,
-            pagination: {
-              el: '.swiper-pagination',
-              clickable: true,
-            },
-            navigation: {
-              nextEl: '.swiper-button-next',
-              prevEl: '.swiper-button-prev',
-            },
-          });
-        </script>
+    </head>
+    <body>
+
+        <?php include $dir_block.'/1930-content.php'; ?>
+        <script src="js/1930.js"></script>
+        
     </body>
 </html>
