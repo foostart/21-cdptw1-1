@@ -2,10 +2,10 @@
   font: normal 56px/68px Libre Baskerville;
   font-size: 40px;
   cursor: pointer;
-  color: black;
+  color: #cb7152;
 }
 .type-1931 h2:hover {
-  color: #5f6368;
+  color: red;
 }
 .type-1931 .sectionTitle {
   margin-bottom: 20px;
@@ -14,19 +14,20 @@
 .type-1931 .sectionTitle h4 {
   font-size: 14px;
 }
-.type-1931 .textcenter:before {
-  display: block;
-  background: #C93642;
-  height: 26px;
-  content: " ";
-  -webkit-mask-image: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg);
-  mask: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg#mask);
-  width: 156px;
-  position: absolute;
-  top: 152px;
-  left: 50%;
-  margin-left: -78px;
-  z-index: 10;
+.type-1931 .opentable {
+  background-color: #C93642;
+  padding-top: 57px;
+  padding-bottom: 20px;
+  padding-left: 76px;
+  padding-right: 72px;
+  border-radius: 50px;
+  margin-left: 153px;
+  margin-right: 153px;
+  cursor: pointer;
+}
+.type-1931 .opentable-text {
+  color: #b2b2b6;
+  margin-bottom: 10px;
 }
 .type-1931 .textcenter1:after {
   display: block;
@@ -48,7 +49,8 @@
 }
 .type-1931 .image {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  margin-top: 40px;
 }
 .type-1931 .text-main {
   text-align: center;
@@ -104,27 +106,27 @@
   font-weight: normal;
   text-transform: uppercase;
   font-size: 15px;
-  color: blue;
+  color: red;
+  font-weight: bold;
 }
 .type-1931 .form_section_2 p {
   display: block;
   text-align: center;
 }
 .type-1931 .form_section_2 input {
-  width: 100%;
+  width: 63%;
   height: 40px;
   border-radius: 4px;
   border-style: none;
   border: 1px solid #a9a9a9;
   padding-left: 12px;
   outline-color: #cb7152;
-  cursor: pointer;
 }
 .type-1931 .form_section_2 input:active {
   border: solid 1px #cb7152;
 }
 .type-1931 .form_section_2 a:hover {
-  background-color: #0b43b7;
+  background-color: #cb7152;
   color: #fff;
 }
 .type-1931 .form_section_2 a {
@@ -135,7 +137,7 @@
   margin-top: 25px;
   display: inline-block;
   text-decoration: none;
-  margin-left: 180px;
+  margin-left: 481px;
   transition: all 0.5s;
   cursor: pointer;
   color: #cb7152;
@@ -144,14 +146,13 @@
   margin-top: 25px;
 }
 .type-1931 .size input {
-  width: 50px;
+  width: 70px;
   height: 40px;
   border-radius: 4px;
   border-style: none;
   border: 1px solid #a9a9a9;
   font-weight: normal;
   text-align: center;
-  cursor: pointer;
 }
 .type-1931 .subtitle {
   text-transform: uppercase;
@@ -160,24 +161,20 @@
   font-family: varela round;
   font-style: normal;
   font-size: 12px;
-}
-.type-1931 .tab_container {
-  clear: both;
-  float: left;
-  width: 100%;
+  margin-top: -16px;
 }
 .type-1931 .tab_container .tab_content {
   color: #6e7177;
   padding: 10px;
   font-size: 16px;
+  margin-top: 20px;
 }
 .type-1931 .btext {
-  margin-top: 10px;
   background: white;
-  padding: 20px;
+  padding: 11px;
   border-radius: 25px;
-  text-decoration: none;
   color: #c93642;
+  font-weight: bold;
 }
 .type-1931 .btext:hover {
   background: red;
@@ -193,10 +190,9 @@
 .type-1931 ul.tabs {
   margin: 0;
   padding: 0;
-  float: left;
   list-style: none;
   height: 32px;
-  margin-left: 180px;
+  margin-left: 453px;
   width: 100%;
 }
 .type-1931 ul.tabs li {
@@ -223,10 +219,45 @@
 .type-1931 ul.tabs li.active {
   color: #cb7152;
   border-bottom: 2px solid #cb7152;
-  transition: border-color .3s;
   padding-bottom: 8px;
   transition: color 0.5s;
 }
 .type-1931 ul.tabs .tab2 {
   margin-left: 30px;
+}
+@media only screen and (max-width: 1024px) {
+  .type-1931 .tabs .active {
+    margin-left: -100px;
+  }
+  .type-1931 .form_section_2 a {
+    margin-left: 383px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .type-1931 .tabs .active {
+    margin-left: -250px;
+  }
+  .type-1931 .form_section_2 a {
+    margin-left: 270px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .type-1931 .tabs .tab2 {
+    display: none;
+  }
+  .type-1931 .form_section_2 a {
+    margin-left: 200px;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .type-1931 .tabs .active {
+    padding-left: -80px;
+    width: 100%;
+  }
+  .type-1931 .tabs .tab2 {
+    display: none;
+  }
+  .type-1931 .form_section_2 a {
+    margin-left: 50px;
+  }
 }

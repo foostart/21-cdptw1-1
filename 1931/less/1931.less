@@ -1,16 +1,15 @@
-.type-1931{
+.type-1931 {
 
     h2{
         font: normal 56px/68px Libre Baskerville;
         font-size: 40px;
         cursor: pointer;
-        color: black;
+        color: #cb7152;
     }
     h2:hover {
-        color: #5f6368;
+        color: red;
     }
 
-    
     .sectionTitle{
 
         margin-bottom: 20px;
@@ -20,20 +19,21 @@
         }
     }
     
-    .textcenter:before{
-        
-            display: block;
-            background: #C93642;
-            height: 26px;
-            content: " ";
-            -webkit-mask-image: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg);
-            mask: url(https://vip-restaurant.vamtam.com/wp-content/themes/vip-restaurant/vamtam/assets/images/ornament-top.svg#mask);
-            width: 156px;
-            position: absolute;
-            top: 152px;;
-            left: 50%;
-            margin-left: -78px;
-            z-index: 10;  
+    .opentable {
+        background-color:#C93642;
+        padding-top: 57px;
+        padding-bottom: 20px;
+        padding-left:76px;
+        padding-right:72px; 
+        border-radius: 50px;
+        margin-left: 153px;
+        margin-right: 153px;
+        cursor: pointer;
+    }
+    .opentable-text {
+        color: #b2b2b6;
+        margin-bottom: 10px;
+
     }
     .textcenter1:after {
             display: block;
@@ -55,7 +55,8 @@
     }
     .image{
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
     .text-main{
         text-align: center;
@@ -90,6 +91,7 @@
     .date input:active{
         border: solid 1px #cb7152;
     }
+
     .time select{
         height: 40px;
         border-radius: 4px;
@@ -112,27 +114,28 @@
         font-weight: normal;
          text-transform: uppercase;
          font-size:15px;
-         color: blue;
+         color: red;
+        font-weight: bold;
     } 
     .form_section_2 p{
         display: block;
         text-align: center;
     }
     .form_section_2 input{
-        width: 100%;
+        width: 63%;
         height: 40px;
         border-radius: 4px;
         border-style: none;
         border: 1px solid rgba(169,169,169);
         padding-left: 12px;
         outline-color: #cb7152;
-        cursor: pointer;
+       
     }
     .form_section_2 input:active{
         border: solid 1px #cb7152;
     }
     .form_section_2 a:hover{
-        background-color: #0b43b7;
+        background-color: #cb7152;
         color: #fff;
     }
     .form_section_2 a{
@@ -143,7 +146,7 @@
         margin-top: 25px;
         display: inline-block;
         text-decoration: none;
-        margin-left: 180px;
+        margin-left: 481px;
         transition: all 0.5s;
         cursor: pointer;
         color: #cb7152;
@@ -152,14 +155,14 @@
         margin-top: 25px;
     }
     .size input{
-        width: 50px;
+        width: 70px;
         height: 40px;
         border-radius: 4px;
         border-style: none;
         border: 1px solid rgba(169,169,169);
         font-weight: normal;
         text-align: center;
-        cursor: pointer;
+        
     }
     .subtitle{
         text-transform: uppercase;
@@ -169,26 +172,22 @@
         font-style: normal;
         text-transform: uppercase;
         font-size: 12px;
+        margin-top: -16px;
     }
     .tab_container {
-
-        clear: both;
-        float: left;
-        width: 100%;
-
         .tab_content {
             color: #6e7177;
             padding: 10px;
             font-size: 16px;
+            margin-top: 20px;
         }
     }
     .btext {
-        margin-top: 10px;
         background: white;
-        padding: 20px;
+        padding: 11px;
         border-radius: 25px;
-        text-decoration: none;
         color: #c93642;
+        font-weight: bold;
     }
     .btext:hover {
         background: red;
@@ -201,13 +200,13 @@
     .textcenter {
         text-align: center;
     }
+
     ul.tabs {
         margin: 0;
         padding: 0;
-        float: left;
         list-style: none;
         height: 32px;
-        margin-left: 180px;
+        margin-left: 453px;
         width: 100%;
         li {
             font-size: 18px;
@@ -234,7 +233,6 @@
         li.active{
             color: #cb7152;
             border-bottom: 2px solid #cb7152;
-            transition: border-color .3s;
             padding-bottom: 8px;
             transition: color 0.5s;
         }
@@ -242,4 +240,52 @@
             margin-left: 30px;
         }
     }
+/*media module-1931*/
+    @media only screen and (max-width: 1024px) {
+        .tabs {
+            .active {
+                margin-left: -100px;
+            }
+        }
+        .form_section_2 a {
+            margin-left: 383px;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .tabs {
+            .active {
+                margin-left: -250px;
+            } 
+        }
+        .form_section_2 a {
+            margin-left: 270px;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .tabs {
+            .tab2 {
+                display: none;
+
+            }
+        }
+        .form_section_2 a {
+            margin-left: 200px;
+        }
+    }
+    @media only screen and (max-width: 320px) {
+        .tabs {
+            .active {
+                padding-left: -80px;
+                width: 100%;    
+            }
+            .tab2 {
+                display: none;
+
+            }
+        }
+        .form_section_2 a {
+            margin-left: 50px;
+        }
+    }
+
 }

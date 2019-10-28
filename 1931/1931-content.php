@@ -1,24 +1,20 @@
 <?php
-$url_host = $_SERVER['HTTP_HOST'];
+    $url_host = $_SERVER['HTTP_HOST'];
 
-$pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
+    $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
 
-$pattern_uri = '/' . $pattern_document_root . '(.*)$/';
+    $pattern_uri = '/' . $pattern_document_root . '(.*)$/';
 
-preg_match_all($pattern_uri, __DIR__, $matches);
+    preg_match_all($pattern_uri, __DIR__, $matches);
 
-$url_path = $url_host . $matches[1][0];
+    $url_path = $url_host . $matches[1][0];
 
-$url_path = str_replace('\\', '/', $url_path);
+    $url_path = str_replace('\\', '/', $url_path);
 ?>
 <div class="type-1931">
     <div class="container">
-    <div class="row">
-        <div class="col-md-9">
-
-
-            <!--BEGIN TABS AND PILL-->
-            <div class="col-md-8">
+        <div class="row">
+            <div class="col-md-12">
                 <!--TITLE TABS AND PILL-->
                 <ul class="tabs"> 
                     <li class="active" rel="tab1">Book a Table</li>
@@ -29,18 +25,15 @@ $url_path = str_replace('\\', '/', $url_path);
                     <div id="tab1" class="tab_content"> 
                         <div class="text-main">
                             Whether you are planning an intimate dinner for friends, a corporate luncheon,
-
-                            or an extravagant soirée, you will find the perfect setting at Délicious.
+                            <br>or an extravagant soirée, you will find the perfect setting at Délicious.
                         </div>
                         <div class="text-mainn">
                             <h2 class="title" >Make a Reservation</h2>
                             <p class="subtitle">For further questions, please call</p>
-
                             <div class="datetime">
                                 <p class="date">
                                     <span>DATE</span>
                                     <input data-provide="datepicker" readonly="" placeholder="Select Date">
-
                                 </p>
                                 <p class="time" data-type=""><span>Time</span>
                                     <select name="time" class="fpres_time_range resinput req fp_res_short_input fp_res_input_icon_clock" id="fp_res_time"><option value="1:00am">1:00am</option>
@@ -75,48 +68,42 @@ $url_path = str_replace('\\', '/', $url_path);
                             <div class="form_section_2">
                                 <p>
                                     <label>Your Name</label>
-                                    <input type="text" name="name" class="resinput req" placeholder="Your Name">
+                                    <input type="text" name="name" class="resinput req" placeholder="Your Name.....">
                                 </p>
                                 <p>
                                     <label>Email Address</label>
-                                    <input type="text" name="email" class="resinput req" placeholder="Email Address">
+                                    <input type="text" name="email" class="resinput req" placeholder="Email Address.....">
                                 </p>
                                 <a id="fp_reservation_submit" class="reserve-submit fp_reservation_submit">Reserve Now</a>
                             </div>
                         </div>
-
                     </div>
                     <!--TAB 2-->
                     <div id="tab2" class="tab_content"> 
                         <div class="image">
                             <img alt="" src="./images/open-table-logo.svg">
                         </div>
-                        <div class="textcenter">
-                           
-                        </div>
-                        
-                        <div class="vamtam-grid grid-1-1  grid-1-1 vamtam-add-ornaments-all first has-background has-horizontal-padding unextended no-extended-padding" style="background-color:#C93642;padding-top:40px;padding-bottom:40px;padding-left:45px;padding-right:45px; border-radius: 25px;" id="vamtam-column-bd9b3e6bc99fc9c34ea36885e075372a">
-                            
+                        <div class="opentable">
                             <div class="row ">
-                                <div class="vamtam-grid grid-1-1  grid-1-1  first unextended no-extended-padding" style="padding-top:0.05px;padding-bottom:0.05px;" id="vamtam-column-cb9c196cc72a5d7f88488966222f141e">
-                                    <p style="text-align: center; color: white;">Whether you are a couple wishing to dine in privacy, business colleagues holding a meeting to impress clients, celebrating a birthday or an intimate wedding party, we can help you.</p>
-                                    <p class="textcenter">
-                                        <a href="#" target="_blank" style="font-size: 14px;" class="vamtam-button accent5  button-filled hover-accent6 ">
-                                        <span class="btext" data-text="Book now">Book now</span>
-                                        </a>
-                                    </p>
+                                <div class="opentable-text">Whether you are a couple wishing to dine in privacy, business colleagues holding a meeting to impress clients, celebrating a birthday or an intimate wedding party, we can help you.<br><br>
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <p class="textcenter">
+                                    <span class="btext" data-text="Book now">Book now</span>
+                                </p>
                                 </div>
                             </div>
                         </div>
-                        <div class="textcenter1">
-                                
-                        </div>
+                        <div class="textcenter1"></div>
                     </div>
-                    
                 </div>
             </div>
             <!--END TABS AND PILL-->
         </div>
     </div>
 </div>
-</div>
+
