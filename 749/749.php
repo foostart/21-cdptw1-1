@@ -1,4 +1,5 @@
-﻿<?php
+﻿
+<?php
 
     $url_host = 'http://'.$_SERVER['HTTP_HOST'];
     $pattern_document_root = addcslashes(realpath($_SERVER['DOCUMENT_ROOT']), '\\');
@@ -19,22 +20,20 @@
 ?>
 
 <head>
-
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>749</title>
-        <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
-        <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>749</title>
+    <link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="<?php echo $url_path ?>/css/swiper.min.css" rel="stylesheet" type="text/css"/>
         
-        <link href="<?php echo $url_path ?>/css/749.css" rel="stylesheet" type="text/css"/>
-        <script src="js/jquery-2.1.4.min.js" ></script>
-        <script src="js/bootstrap.min.js" ></script>
-        <script src="js/swiper.min.js" ></script>
-        <script src="js/749.js" ></script>
-
+    <link href="<?php echo $url_path ?>/css/749.css" rel="stylesheet" type="text/css"/>
+    <script src="js/jquery-2.1.4.min.js" ></script>
+    <script src="js/bootstrap.min.js" ></script>
+    <script src="js/swiper.min.js" ></script>
+    <script src="js/749.js" ></script>
 </head>
 <body>
         <?php include './749-content.php'; ?>
-
 </body>
+

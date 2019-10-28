@@ -12,38 +12,39 @@
 ?>
 
 <div class="type-749">
-    <div class="bg-749">
-	<div class="container plr-0">
-        <header class="header">
-            <div class="header-top">
-                <div class="logo col-md-6 col-lg-6 col-sm-3 col-xs-3">
-                    <a href="#"><i class="fa fa-home"></i>Reales</a>
+    <div class="container plr-0">
+        <div class="row">
+            <header class="header">
+                <div class="header-top">
+                    <div class="logo col-md-6 col-lg-6 col-sm-3 col-xs-3">
+                        <a href="#">
+                            <i class="fa fa-home"></i>
+                            <span class="reales">Reales</span>
+                        </a>
+                    </div>
+                    <div class="menu-top-right col-md-6 col-lg-6 col-sm-9 col-xs-9">
+                        <ul class="list-unstyled list-inline pull-right">
+                            <li><a class="sign" href="#">Sign Up</a></li>
+                            <li><a class="sign" href="#">Sign In</a></li>
+                            <li class="list"><a href="#">List A Property</a></li>
+                        </ul>
+                    </div>
                 </div>
-                <div class="menu-top-right col-md-6 col-lg-6 col-sm-9 col-xs-9">
-                    <ul class="list-unstyled list-inline pull-right">
-                        <li><a href="#">Sign Up</a></li>
-                        <li><a href="#">Sign In</a></li>
-                        <li class="list"><a href="#">List A Property</a></li>
-                    </ul>
+                <div class="header-content text-center">
+                    <h3 class="title">Now it's easy find your future home</h3>
+                    <h5 class="sub-title">With reales - real estate template</h5>
+                    <div class="btn"><a href="#">Learn more</a></div>
                 </div>
-            </div>
-            <div class="header-content text-center">
-                <h3 class="title">Now it's easy find your future home</h3>
-                <h5 class="sub-title">With reales - real estate template</h5>
-                <div class="btn"><a href="#">Learn more</a></div>
-            </div>
-            <div class="find">     
-            </div><!-- End Find -->
-             </header>
-            </div>
-             
+                <div class="find">     
+                </div><!-- End Find -->
+            </header>
             <div class="panel-find">
                 <h3 class="panel-title">Find Your New Place With Reales</h3>
                 <p class="content">Integer aliquam sed ante non volutpat. Aenean vitae nulla varius, dictum nisi non, rhoncus sem.Aenean vitae nulla varius, dictum nisi non, rhoncus sem</p>
             </div>
         </div> 
         <!-- End Panel Find -->
-        <div class="container">
+        
         <div class="service">
             <div class="container">
                 <h3 class="title">Our Services</h3>
@@ -76,22 +77,22 @@
                 <h3 class="title">Recently Listed Properties</h3>
                 <div class="items">
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img alt="" class="img-responsive" src="images/research-3-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/re-1.png">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img alt="" class="img-responsive" src="images/research-4-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/re-3.png">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img alt="" class="img-responsive" src="images/research-5-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/re-2.png">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img alt="" class="img-responsive" src="images/research-3-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/re-3.png">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img alt="" class="img-responsive" src="images/research-4-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/re-2.png">
                     </div>
                     <div class="col-md-4 col-sm-6 col-xs-12 item">
-                        <img alt="" class="img-responsive" src="images/research-5-770x434.jpg">
+                        <img alt="" class="img-responsive" src="images/re-1.png">
                     </div>
                 </div>
             </div>
@@ -120,7 +121,7 @@
                                   </form>
                                 </div>
                         <ul class="list-unstyled list-inline link">
-                            <li><a class="envelope" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                            <li><a class="gmail" href="#"><i class="fa fa-envelope-o"></i></a></li>
                             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a class="google" href="#"><i class="fa  fa-google-plus"></i></a></li>
@@ -147,7 +148,7 @@
                                   </form>
                                 </div>
                         <ul class="list-unstyled list-inline link">
-                            <li><a class="envelope" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                            <li><a class="gmail" href="#"><i class="fa fa-envelope-o"></i></a></li>
                             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a class="google" href="#"><i class="fa  fa-google-plus"></i></a></li>
@@ -174,7 +175,7 @@
                                   </form>
                                 </div>
                         <ul class="list-unstyled list-inline link">
-                            <li><a class="envelope" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                            <li><a class="gmail" href="#"><i class="fa fa-envelope-o"></i></a></li>
                             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a class="google" href="#"><i class="fa  fa-google-plus"></i></a></li>
@@ -201,7 +202,7 @@
                                   </form>
                                 </div>
                         <ul class="list-unstyled list-inline link">
-                            <li><a class="envelope" href="#"><i class="fa fa-envelope-o"></i></a></li>
+                            <li><a class="gmail" href="#"><i class="fa fa-envelope-o"></i></a></li>
                             <li><a class="facebook" href="#"><i class="fa fa-facebook"></i></a></li>
                             <li><a class="twitter" href="#"><i class="fa fa-twitter"></i></a></li>
                             <li><a class="google" href="#"><i class="fa  fa-google-plus"></i></a></li>
@@ -312,7 +313,7 @@
                     <div class="row">
                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
                             <p class="mb-0">Real estate web application</p>
-                            <p>© 2014</p>
+                            <p>nang pham @ 2019</p>
                         </div>
                     </div>
                 </div>
@@ -320,4 +321,4 @@
         </footer>
         <!-- End Footer -->
     </div>
-    </div>
+</div>
