@@ -261,3 +261,15 @@
     margin-left: 50px;
   }
 }
+@media only screen and (max-width: 400px) {
+  .type-1931 ul.tabs li {
+    float: left;
+    text-align: center;
+  }
+  .type-1931 .form_section_2 a {
+    margin-left: 90px;
+  }
+  .type-1931 .tab_content {
+    padding-right: 100px;
+  }
+}
