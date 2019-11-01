@@ -1,11 +1,14 @@
 .type-1934{
-    .block-banner{
+    .row{
         margin-top: 30px;
         margin-bottom: 30px;
         .banner{
             position: relative;
             z-index: 1;
             display: block;
+            &:hover {
+                cursor: pointer;
+            }
         }
         .banner::before{
             background-color: rgba(255,255,255,.15);
@@ -71,20 +74,44 @@
             list-style: none;
             padding: 10px 0;
             margin: 0 -10px;
+            border-bottom:none
         }
         .nav-tabs .nav-link.active{
             border: none
+
         }
         .nav-tabs .nav-link:hover{
             border: none;
             color: #fcb800;
             transition: all .25s ease;
-            font-weight: 500
+            font-weight: 500;
         }
         .nav-tabs .nav-link{
             border: none;
             color: black;
             font-weight: 500
+        }  
+    }
+    .tab-pane {
+        position: relative; 
+        overflow: hidden; 
+        height: 1076.47px; 
+        transition: height 250ms ease-out 0s;
+        margin-bottom: -40px
+    }
+    @media only screen and (max-width: 320px) {
+        .title {
+            margin-left: 30px;
         }
+        .block-main-product .nav-menu {
+            margin-left: 20px;
+        }
+
+    }
+    @media only screen and (max-width: 400px) {
+        .block-main-product .nav-menu {
+            margin-right: 40px;
+        }
+
     }
 }

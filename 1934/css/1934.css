@@ -1,13 +1,16 @@
-.type-1934 .block-banner {
+.type-1934 .row {
   margin-top: 30px;
   margin-bottom: 30px;
 }
-.type-1934 .block-banner .banner {
+.type-1934 .row .banner {
   position: relative;
   z-index: 1;
   display: block;
 }
-.type-1934 .block-banner .banner::before {
+.type-1934 .row .banner:hover {
+  cursor: pointer;
+}
+.type-1934 .row .banner::before {
   background-color: rgba(255,255,255,0.15);
   content: "";
   height: 0;
@@ -20,11 +23,11 @@
   width: 0;
   z-index: 1;
 }
-.type-1934 .block-banner .banner:hover::before {
+.type-1934 .row .banner:hover::before {
   height: 100%;
   width: 100%;
 }
-.type-1934 .block-banner .banner::after {
+.type-1934 .row .banner::after {
   background-color: rgba(255,255,255,0.15);
   bottom: 0;
   content: "";
@@ -36,11 +39,11 @@
   width: 0;
   z-index: 1;
 }
-.type-1934 .block-banner .banner:hover::after {
+.type-1934 .row .banner:hover::after {
   height: 100%;
   width: 100%;
 }
-.type-1934 .block-banner .banner img {
+.type-1934 .row .banner img {
   max-width: 100%;
   height: auto;
   width: 100%;
@@ -67,6 +70,7 @@
   list-style: none;
   padding: 10px 0;
   margin: 0 -10px;
+  border-bottom: none;
 }
 .type-1934 .block-main-product .nav-tabs .nav-link.active {
   border: none;
@@ -81,4 +85,24 @@
   border: none;
   color: black;
   font-weight: 500;
+}
+.type-1934 .tab-pane {
+  position: relative;
+  overflow: hidden;
+  height: 1076.47px;
+  transition: height 250ms ease-out 0s;
+  margin-bottom: -40px;
+}
+@media only screen and (max-width: 320px) {
+  .type-1934 .title {
+    margin-left: 30px;
+  }
+  .type-1934 .block-main-product .nav-menu {
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .type-1934 .block-main-product .nav-menu {
+    margin-right: 40px;
+  }
 }
